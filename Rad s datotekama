@@ -1,0 +1,27 @@
+#include <iostream>
+#include <fstream>
+using namespace std;
+
+int main(){
+
+
+  string podaci[2][2];
+
+
+
+
+
+
+ ofstream ulaz("tekst.txt");
+
+            cin>>podaci[0][0]>>podaci[0][1]>>podaci[1][0]>>podaci[1][1];
+            ulaz<<podaci[0][0]<<" "<<podaci[0][1]<<" "<<podaci[1][0]<<" "<<podaci[1][1];
+            ulaz.close();
+
+ifstream izlaz("tekst.txt");
+            izlaz>>podaci[0][0]>>podaci[0][1]>>podaci[1][0]>>podaci[1][1];
+            cout<<podaci[0][0]<<endl;
+            cout<<podaci[0][1]<<endl;
+            cout<<podaci[1][0]<<endl;
+            cout<<podaci[1][1]<<endl;
+            }
