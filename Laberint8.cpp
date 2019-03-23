@@ -2,6 +2,8 @@
 #include<string>
 #include<fstream>
 
+//! NeŽeli ispisati "Pobjedili ste" inače po meni radi sve dok su 4 uz rub
+
 using namespace std;
 
 int main(){
